@@ -92,7 +92,11 @@ Result: <br>
 	re-encoded <br>
 	exported as MP4 ready for smooth velocity in Vegas 
 
-Note:
+Notes:
+
 If you're retiming the clips, I recommend calculating the math in advance
 don't just put 10 in the multiplier expecting it to work for all cases
 especially if its not the typical 0.1 timescale 60fps going to 600fps
+
+Don't mix input file types, I don't know why you would <br>
+but just to be sure when re-encoding all the source files need to be the same file type
