@@ -14,11 +14,9 @@ It supports the following input file types:
 .mov
 .m4v
 
-It outputs:
-.mp4
-(I can add more if needed)
+Output: .mp4 (I can add more if needed)
 
-FFmpeg must be installed
+FFmpeg must be installed.
 This batch file uses FFmpeg to process video files.
 It will not work unless FFmpeg is installed and accessible from the Windows command line.
 
@@ -35,7 +33,7 @@ C:\ffmpeg
 Inside that folder, you should have a path similar to:
 C:\ffmpeg\bin\ffmpeg.exe
 
-3. Add FFmpeg to your system PATH
+3. Add FFmpeg to your system PATH,
 Adding FFmpeg to PATH allows you to type ffmpeg in Command Prompt from any folder.
 
 	1. Press the Windows key
@@ -48,13 +46,13 @@ Adding FFmpeg to PATH allows you to type ffmpeg in Command Prompt from any folde
 	8. Add the FFmpeg bin folder, for example: C:\ffmpeg\bin
 	9. Click OK on everything to save
 
-4. Test FFmpeg
-Open Command Prompt and type: ffmpeg -version
+4. Test FFmpeg,
+Open Command Prompt and type: ffmpeg -version,
 If FFmpeg is installed correctly, you should see version information.
 
 # How to use the batch file
 
-1. Put the batch file in the same folder as your clips
+1. Put the batch file in the same folder as your clips,
 Example folder:
 
 	clip1/
@@ -64,7 +62,7 @@ Example folder:
 		tool.bat
 
 
-2. Run the batch file
+2. Run the batch file,
 Double click the .bat file
 
 3. Answer the prompt
