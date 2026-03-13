@@ -88,9 +88,8 @@ Settings: <br>
 	Output FPS: 600 
 
 Result: <br>
-	properly timed <br>
-	re-encoded <br>
-	exported as MP4 ready for smooth velocity in Vegas 
+	properly timed 600fps clips <br>
+	re-encoded as MP4 ready for smooth velocity in Vegas 
 
 Notes:
 
