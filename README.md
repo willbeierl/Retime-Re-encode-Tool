@@ -28,8 +28,7 @@ essentials should be fine
 
 2. Extract the files <br>
 After downloading, extract the FFmpeg folder somewhere permanent, for example: <br>
-C:\ffmpeg
-
+C:\ffmpeg <br>
 Inside that folder, you should have a path similar to: <br>
 C:\ffmpeg\bin\ffmpeg.exe
 
