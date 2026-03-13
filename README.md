@@ -52,51 +52,48 @@ If FFmpeg is installed correctly, you should see version information.
 
 # How to use the batch file
 
-1. Put the batch file in the same folder as your clips,
+1. Put the batch file in the same folder as your clips, <br>
 Example folder:
 
-	clip1/
-    		pov.avi
-    		cine1.avi
-    		cine2.avi
-		tool.bat
+	clip1/ <br>
+    		pov.avi <br>
+    		cine1.avi <br>
+    		cine2.avi <br>
+		tool.bat <br>
 
 
 2. Run the batch file,
 Double click the .bat file
 
-3. Answer the prompt
-Do the clips need retiming? (Y/N)
-Y if the clip timing is wrong and needs to be restored
+3. Answer the prompt <br>
+Do the clips need retiming? (Y/N) <br>
+Y if the clip timing is wrong and needs to be restored <br>
 N if the clip timing is already correct and you only want re-encoding
 
-3.5 Enter retime multiplier
-Example: 10 
-the clip will be sped up by 10x
-This is for clips recorded at 0.1 timescale
-so 60fps at 0.1 timescale becomes 600fps
+4. Enter retime multiplier (if needed) <br>
+Example: 10  <br>
+the clip will be sped up by 10x <br>
+This is for clips recorded at 0.1 timescale <br>
+so 60fps at 0.1 timescale becomes 600fps <br>
 
-4. Enter final output FPS
-This sets the final framerate of the exported .mp4 files
-typical Examples:
-600
-1000
-1200
+5. Enter final output FPS <br>
+This sets the final framerate of the exported .mp4 files <br>
+typical Examples: 600, 1000, 1200
 
 # Example workflow:
 .avi clips recorded at 0.1 timescale at 60fps
 
-Settings:
-	Retime: Y
-	Multiplier: 10
-	Output FPS: 600
+Settings: <br>
+	Retime: Y <br>
+	Multiplier: 10 <br>
+	Output FPS: 600 
 
-Result:
-	properly timed
-	re-encoded
-	exported as MP4 ready for smooth velocity in Vegas
+Result: <br>
+	properly timed <br>
+	re-encoded <br>
+	exported as MP4 ready for smooth velocity in Vegas 
 
 Note:
-I recommend calculating in advance the math for your clip retiming
+If you're retiming the clips, I recommend calculating the math in advance
 don't just put 10 in the multiplier expecting it to work for all cases
 especially if its not the typical 0.1 timescale 60fps going to 600fps
