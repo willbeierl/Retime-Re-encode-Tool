@@ -26,11 +26,11 @@ It will not work unless FFmpeg is installed and accessible from the Windows comm
 https://www.gyan.dev/ffmpeg/builds/
 essentials should be fine
 
-2. Extract the files
-After downloading, extract the FFmpeg folder somewhere permanent, for example:
+2. Extract the files <br>
+After downloading, extract the FFmpeg folder somewhere permanent, for example: <br>
 C:\ffmpeg
 
-Inside that folder, you should have a path similar to:
+Inside that folder, you should have a path similar to: <br>
 C:\ffmpeg\bin\ffmpeg.exe
 
 3. Add FFmpeg to your system PATH,
