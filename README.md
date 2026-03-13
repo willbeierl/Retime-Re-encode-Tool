@@ -14,7 +14,7 @@ It supports the following input file types:
 .mov
 .m4v
 
-Output: .mp4 (I can add more if needed)
+Output: .mp4
 
 FFmpeg must be installed.
 This batch file uses FFmpeg to process video files.
