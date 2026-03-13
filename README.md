@@ -76,11 +76,11 @@ This is for clips recorded at 0.1 timescale <br>
 so 60fps at 0.1 timescale becomes 600fps <br>
 
 5. Enter final output FPS <br>
-This sets the final framerate of the exported .mp4 files <br>
+This sets the final framerate of the encoded video <br>
 typical Examples: 600, 1000, 1200
 
 # Example workflow:
-.avi clips recorded at 0.1 timescale at 60fps
+you have .avi clips recorded at 0.1 timescale at 60fps
 
 Settings: <br>
 	Retime: Y <br>
