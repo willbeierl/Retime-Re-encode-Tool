@@ -91,7 +91,7 @@ Result: <br>
 	properly timed 600fps clips <br>
 	re-encoded as MP4 ready for smooth velocity in Vegas 
 
-Notes:
+# Notes:
 
 If you're retiming the clips, I recommend calculating the math in advance
 don't just put 10 in the multiplier expecting it to work for all cases
